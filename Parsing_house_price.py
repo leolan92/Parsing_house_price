@@ -33,7 +33,7 @@ URL = '/region/%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%9D%B1%E5%8D%80?kw=%E6%85%88%E9%9B
 # In[51]:
 
 
-def get_web_page(url) -> str:
+def get_web_page(url):
     '''input: url = website which has house price data'''
     '''output: resp.text =  text data collected from website'''
     headers = {
